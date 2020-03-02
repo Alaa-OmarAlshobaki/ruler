@@ -1,0 +1,17 @@
+
+.basic {
+  transform: rotate(-20deg) skew(-35deg, -10deg);
+}
+.icon {
+  background: black;
+  height: 50px;
+  width: 50px;
+  border-bottom: 3px solid gray;
+  display: block;
+  box-shadow: 30px 20px gray;
+}
+.icon:hover {
+  background: red;
+  transform: translate(20px, -14px);
+  box-shadow: -18px 14px white ;
+}

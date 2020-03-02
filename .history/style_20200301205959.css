@@ -1,0 +1,16 @@
+body{
+  background-color:#9e9e9e29;
+}
+.beano{
+  background-color:black;
+  width:100px;
+  height: 500px;
+  
+
+}
+.icon{
+  background-color:black;
+  width:100px;
+  height: 72px;
+  border-bottom:1px solid gray;
+}

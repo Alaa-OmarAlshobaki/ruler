@@ -1,0 +1,27 @@
+.basic {
+  /* transform: rotate(-35deg) skew(20deg, 5deg); */
+  transform: rotate(-30deg) skew(-45deg, -5deg);
+}
+.icon {
+  background: #000;
+
+  height: 50px;
+  width: 50px;
+
+
+  border-bottom: 3px solid gray;
+  position: relative;
+  display: block;
+
+  box-shadow: 30px 20px  gray;
+
+}
+.list-item:hover {
+    background: #ff6e42;
+    color: #fffcfb;
+    -webkit-transform: translate(0.9em, -0.9em);
+    transform: translate(0.9em, -0.9em);
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear;
+    box-shadow: -2em 2em 0 #e1e1e1;
+}

@@ -1,0 +1,11 @@
+body {
+  background-color: black;
+}
+.col-2{
+  
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}

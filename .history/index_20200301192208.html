@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="square"></div>
+
+    <div class="rectangle"></div>
+
+    <div class="circle"></div>
+
+    <div class="oval"></div>
+
+    <div class="trang"></div>
+
+    <div class="trang-down"></div>
+    <div class="trang-left"></div>
+    <div class="trang-right"></div>
+
+
+    @keyframes cf3FadeInOut {
+        0% {
+        opacity:1;
+      }
+      45% {
+      opacity:1;
+      }
+      55% {
+      opacity:0;
+      }
+      100% {
+      opacity:0;
+      }
+      }
+      
+      #cf3 img.top {
+      animation-name: cf3FadeInOut;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+      animation-direction: alternate;
+      }
+  </body>
+</html>

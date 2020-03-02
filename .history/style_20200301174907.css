@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background-color: palegoldenrod;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gold;
+}
+.oval {
+  width: 200px;
+  height: 100px;
+  background-color: goldenrod;
+  border-radius: 100px/50px;
+}
+.trang {
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid ;
+  border-right: 50px solid ;
+  border-bottom: 100px solid green;
+}
+.trang-down{
+  width: 0px;
+  hi
+}

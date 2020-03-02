@@ -1,0 +1,43 @@
+body {
+  background-color: #9e9e9e29;
+  line-height: 1px;
+  box-sizing: border-box;
+  transform: translate3d(0, 0, 0);
+}
+.beano {
+  margin: 20%;
+  position: relative;
+  width: 100px;
+  height: 500px;
+  transform: rotate(-35deg) skew(20deg, 5deg);
+  box-sizing: border-box;
+}
+.icon::before,.icon::after {
+  content: '';
+  position: absolute;
+  /* -webkit-transition: all .25s linear; */
+  transition: all .25s linear;
+  width: .5em;
+}
+
+.icon {
+  background-color: black;
+  width: 100px;
+  height: 72px;
+  border-bottom: 1px solid;
+  box-sizing: border-box;
+  position: relative;
+  display:block;
+  box-shadow: -2em 1.5em 0 #e1e1e1;
+  transition: all .25s linear;
+
+}
+.icon:hover {
+  translate: 1px;
+  transform: scale3d(1, 1, 50);
+  background-color: red;
+  box-shadow: -30px 2px 50px gray;
+  box-sizing: border-box;
+  transform: translate(10px);
+}
+

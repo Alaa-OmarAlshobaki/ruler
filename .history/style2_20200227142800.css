@@ -1,0 +1,18 @@
+.basic {
+  transform: rotate(-35deg) skew(20deg, 5deg);
+}
+.icon {
+  background: #000;
+
+  height: 50px;
+  width: 50px;
+
+
+  border-bottom: 1px solid #060606;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  box-shadow: -2em 1.5em 0 #e1e1e1;
+  /* -webkit-transition: all .25s linear; */
+  transition: all 0.25s linear;
+}

@@ -1,0 +1,23 @@
+body{
+  background-color:#9e9e9e29;
+ 
+}
+.beano{
+  margin: 20%;
+  background-color:black;
+  width:100px;
+  height: 500px;
+  transform: rotate(-35deg)skew(20deg, 5deg);;
+
+}
+.icon{
+  background-color:black;
+  width:100px;
+  height: 72px;
+  border-bottom:1px solid gray;
+}
+.icon:hover{
+  transform: scale3d(5px,2px,3px);
+  background-color:red;
+
+}
